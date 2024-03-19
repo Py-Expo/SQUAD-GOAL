@@ -3,7 +3,7 @@ import imaplib
 
 # Login to your email account
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
-mail.login('kathirchandran2356@gmail.com', 'qsln bkvm pkcp repu')
+mail.login('email', 'code')
 mail.select('inbox')
 
 # Search for the email you want to extract headers from
